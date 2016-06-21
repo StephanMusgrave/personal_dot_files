@@ -1,0 +1,11 @@
+require: rubocop-rspec
+
+Documentation:
+  Enabled: false
+
+EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+  Enabled: true

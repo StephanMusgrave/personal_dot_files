@@ -1,0 +1,100 @@
+ output = "<a href='//'>HOME"
+ output = "<a href='/'>HOME"
+ output = "<a href='"/"'>HOME"
+ output = "<a href=\"/\">HOME"
+ output = "<a href='\"/\"'>HOME"
+str = "ruby \'on rails\" "
+ output = "<a href=>HOME"
+ output = "<a href=/">HOME"
+ output = "<a href=\">HOME"
+ output = "<a href=">HOME"
+ output = "<a href=\"\">HOME"
+ output = "<a href=/"\">HOME"
+ output = "<a href=\"\\">HOME"
+ output = " <a href= \"\" >HOME "
+"/""
+"/"
+"\"
+"
+"/\""
+"\""
+a =  _
+a
+a[0]
+a.length
+puts a
+ output = " <a href=\"\">HOME "
+puts output
+puts " <a href=\"\">HOME "
+puts " <a href=\"\\\">HOME "
+array
+puts " <a href=\"\\\">HOME " + array[0]
+separator = " : "
+puts "<a href=\"\\\">HOME<//>" + separator
+puts "<a href=\"\\\">HOME</>" + separator
+puts "<a href=\"\\\">HOME</a>" + separator
+exit
+string.methods
+String.methods
+String.methods.sort
+ls Array
+Array.methods.sort
+s1 = "r r r r r r r r"
+s1.split
+s1.split.join
+s1.split.join("4")
+s1.split.join(" ")
+s1.split.each { |word| word }join(" ")
+s1.split.each { |word| word }.join(" ")
+s1.split.map { |word| word }.join(" ")
+s1.split.map { |word| word + "err" }.join(" ")
+s2 = "THIS, is crazy!"
+s2.split.map { |word| word }.join(" ")
+s2.split.map { |word| word + "err" }.join(" ")
+"sample*".gsub(/\*$/, 'err')
+"hello".gsub(/[aeiou]/, '*') 
+"sample*".gsub(/\*$/, '')
+"hello".gsub(/[aeiou]\*$/, '*') 
+"hello".gsub(/[aeiou]\$/, '*') 
+"hello".gsub(/\$/, '*') 
+"hello".gsub(/[aeiou]$/, '*') 
+"hello".gsub(/[aeiou]$/, 'err') 
+"hello".gsub(/[aeiou]$/, \1'err') 
+"hello".gsub(/[aeiou]$/, '\1err') 
+"hello".gsub(/[aeiou]$/, "\1err") 
+"hello".gsub(/[aeiou]$/, "err\1") 
+"hello".gsub(/[aeiou]$/, "err/\1") 
+"hello".gsub(/[aeiou]$/, "err'\1'") 
+"hello".gsub(/[aeiou]$/, "err'/1'") 
+"hello".gsub(\>, "err") 
+puts "What the human does is not like what animal does.".gsub(/(what)/i, '==\1==')
+"What the human does is not like what animal does.".gsub(/(what)/i, '==\1==')
+"hello".gsub(/\>, "err") 
+"hello".gsub(/\>/, "err") 
+"hello".gsub(/[aeiou]$/, "err") 
+"hello".gsub(/[aeiou]$/i, "err") 
+"hellO".gsub(/[aeiou]$/i*, "err") 
+"hellO".gsub(/[aeiou]$/i, "err") 
+"What the human does is not like what animal does.".gsub(/what/i,'==\0==')
+history
+"hello".gsub(/[b-df-hj-np-tv-z]$/, 'err')
+"hellt".gsub(/[b-df-hj-np-tv-z]$/, 'err')
+"hellt!".gsub(/[b-df-hj-np-tv-z]$/, 'err')
+"hellt!".downcase.gsub(/[^a-z0-9\s]/i, '')
+"THIS, is crazy!".scan(/[\w'-]+|[[:punct:]]+/)
+"hello"."som".gsub(/[aeiou]/, &:upcase)
+"hello".gsub(/[aeiou]/, &:upcase+"33")
+"hello".gsub(/[aeiou]/, (&:upcase)+"33")
+"hello".gsub(/[aeiou]/, (&:upcase))
+"hello".gsub(/[aeiou]/, &:upcase "33")
+"hello".gsub(/[aeiou]/, &:upcase)
+"hello".gsub(/[aeiou]/, &:)
+"hello".gsub(/[aeiou]/, &)
+"hello".gsub(/[aeiou]/, /"9"/)
+"hello".gsub(/[aeiou]/, /9/)
+"hello".gsub(/[aeiou]/, "9")
+"hello".gsub(/[b-df-hj-np-tv-z]/, "9")
+"THIS, is crazy!".gsub(/[b-df-hj-np-tv-z]/, "9")
+"THIS, is crazy!".gsub(/[b-df-hj-np-tv-z]/i, "9")
+"THIS, is crazy!".gsub(/[b-df-hj-np-tv-z]/i, "err")
+"THIS, is crazy!".gsub(/[b-df-hj-np-tv-z]/i, "\1err")
